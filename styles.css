@@ -1,0 +1,143 @@
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2');
+}
+
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/plus-jakarta-sans-v8-latin-700.woff2') format('woff2');
+}
+
+/* Josh Comeau's Custom CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* CSS variables */
+:root {
+  /* colors */
+  --clr-purple: hsl(252, 66%, 62%);
+  --clr-orange: hsl(28, 89%, 67%);
+  --clr-pink: hsl(0, 78%, 79%);
+  --clr-red: hsl(7, 77%, 66%);
+  --clr-turquoise: hsl(172, 46%, 57%);
+  --clr-dark-purple: hsl(314, 45%, 23%);
+  --clr-black: hsl(0, 0%, 1%);
+  --clr-gray: hsl(30, 5%, 45%);
+  --clr-white: hsl(28, 100%, 97%);
+
+  /* font family */
+  --ff-headings: 'Plus Jakarta Sans', sans-serif;
+  --ff-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* font weights */
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+/* reusable styles */
+.heading-1,
+.heading-2 {
+  font-family: var(--ff-headings);
+}
+
+/* 56px to 36px */
+.heading-1 {
+  font-size: 2.25rem;
+  font-size: clamp(
+    2.25rem,
+    1.8098591549295775rem + 1.8779342723004695vw,
+    3.5rem
+  );
+}
+
+/* 40px to 26px */
+.heading-2 {
+  font-size: 1.625rem;
+  font-size: clamp(
+    1.625rem,
+    1.3169014084507042rem + 1.3145539906103285vw,
+    2.5rem
+  );
+}
+
+/* 18px to 16px */
+.paragraph-1 {
+  font-size: 1rem;
+  font-size: clamp(
+    1rem,
+    0.9559859154929577rem + 0.18779342723004694vw,
+    1.125rem
+  );
+}
+
+/* 16px to 14px */
+.paragraph-2 {
+  font-size: 0.875rem;
+  font-size: clamp(
+    0.875rem,
+    0.8309859154929577rem + 0.18779342723004694vw,
+    1rem
+  );
+}
+
+/* containers */
+.container {
+  --max-width: 70rem;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+
+/* page styles */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--ff-body);
+}
