@@ -70,7 +70,7 @@ h6 {
   --clr-turquoise: hsl(172, 46%, 57%);
   --clr-dark-purple: hsl(314, 45%, 23%);
   --clr-black: hsl(0, 0%, 1%);
-  --clr-gray: hsl(30, 5%, 45%);
+  --clr-brown: hsl(30, 5%, 45%);
   --clr-white: hsl(28, 100%, 97%);
 
   /* font family */
@@ -88,6 +88,7 @@ h6 {
 .heading-1,
 .heading-2 {
   font-family: var(--ff-headings);
+  color: var(--clr-black);
 }
 
 /* 56px to 36px */
@@ -140,6 +141,7 @@ h6 {
 
 /* buttons */
 .btn {
+  text-transform: capitalize;
   text-decoration: none;
   color: var(--clr-white);
   padding: 0.875rem 2.812rem;
@@ -165,10 +167,12 @@ h6 {
 
 /* PAGE STYLES */
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
   font-family: var(--ff-body);
   font-weight: var(--fw-500);
+  color: var(--clr-brown);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
   background-color: var(--clr-white);
 }
 
@@ -182,4 +186,15 @@ body {
 .logo {
   width: 4rem;
   height: auto;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  margin-block: 4.125rem 5rem;
+}
+
+.hero__subheading {
+  max-width: 45.625rem;
+  margin: 1.4375rem auto 0;
 }
