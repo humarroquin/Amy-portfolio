@@ -406,3 +406,48 @@ body {
 .slider-btn:hover {
   background-color: var(--clr-purple);
 }
+
+/* cta */
+.cta {
+  grid-template-columns: repeat(2, 1fr);
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+  padding: 80px 65px;
+  align-items: center;
+  margin-bottom: 56px;
+  border-radius: 10px;
+}
+
+.cta__heading {
+  color: var(--clr-white);
+  margin-bottom: 25px;
+}
+
+.cta__button {
+  justify-self: end;
+}
+
+@media screen and (max-width: 48rem) {
+  .cta {
+    padding: 64px 75px;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 26px;
+  }
+  .cta__button {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 23.4375rem) {
+  .cta {
+    padding: 48px 24px;
+  }
+}
+
+/* footer */
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
