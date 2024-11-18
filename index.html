@@ -14,69 +14,77 @@
     <title>Frontend Mentor | Amy portfolio</title>
   </head>
   <body>
-    <header class="header container d-flex">
+    <!-- header -->
+    <header class="header container d-flex--space-between">
       <a href="/">
-        <img src="./assets/logo.svg" alt="Amy design solutions" class="logo" />
+        <img
+          src="./assets/logo.svg"
+          alt="Amy design solutions logo"
+          class="logo"
+        />
       </a>
-      <a href="#" class="btn btn--black paragraph-2">Free consultation</a>
+      <a href="#" class="btn btn--black btn-text">Free consultation</a>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero container">
         <header class="hero__header">
           <h1 class="heading-1">Design solutions made easy</h1>
-          <p class="hero__subheading paragraph-1">
+          <p class="hero__subheading">
             With over ten years of experience in various design disciplines, I’m
             your one-stop shop for your design needs.
           </p>
         </header>
         <div class="hero__skills-grid d-grid">
-          <div class="purple-section grid-sections">
-            <!-- ! Find options to avoid text wrapping -->
-            <p>Graphic design</p>
+          <div class="purple-section grid-section">
+            <p class="hero__skills-grid-title">Graphic design</p>
             <img
               src="./assets/pattern-graphic-design.svg"
               alt=""
-              class="grid-images"
+              class="grid-image"
             />
           </div>
-          <div class="orange-section grid-sections">
-            <p>UI/UX</p>
-            <img src="./assets/pattern-ui-ux.svg" alt="" class="grid-images" />
+          <div class="orange-section grid-section">
+            <p class="hero__skills-grid-title">UI/UX</p>
+            <img src="./assets/pattern-ui-ux.svg" alt="" class="grid-image" />
           </div>
-          <div class="pink-section grid-sections">
-            <p>Apps</p>
-            <img src="./assets/pattern-apps.svg" alt="" class="grid-images" />
+          <div class="pink-section grid-section">
+            <p class="hero__skills-grid-title">Apps</p>
+            <img src="./assets/pattern-apps.svg" alt="" class="grid-image" />
           </div>
-          <div class="turquoise-section grid-sections">
-            <p>Photography</p>
+          <div class="turquoise-section grid-section">
+            <p class="hero__skills-grid-title">Photography</p>
             <img
               src="./assets/pattern-photography.svg"
               alt=""
-              class="grid-images"
+              class="grid-image"
             />
           </div>
-          <div class="red-section grid-sections">
-            <p>illustrations</p>
+          <div class="red-section grid-section">
+            <p class="hero__skills-grid-title">illustrations</p>
             <img
               src="./assets/pattern-illustrations.svg"
               alt=""
-              class="grid-images"
+              class="grid-image"
             />
           </div>
-          <div class="dark-purple-section grid-sections">
-            <p>Motion graphics</p>
+          <div class="dark-purple-section grid-section">
+            <p class="hero__skills-grid-title">Motion graphics</p>
             <img
               src="./assets/pattern-motion-graphics.svg"
               alt=""
-              class="grid-images"
+              class="grid-image"
             />
           </div>
         </div>
       </section>
       <!-- about section -->
       <section class="about container d-grid">
-        <img src="./assets/image-amy.webp" alt="Amy" class="about__image" />
+        <img
+          src="./assets/image-amy.webp"
+          alt="Amy from Amy design solutions"
+          class="about__image"
+        />
         <div class="about__content">
           <h2 class="heading-2">
             I’m Amy, and I’d love to work on your next project
@@ -86,7 +94,7 @@
             I’ve designed everything from brand illustrations to complete mobile
             apps. I’m also handy with a camera!
           </p>
-          <a href="#" class="btn btn--red">Free Consultation</a>
+          <a href="#" class="btn btn--red btn-text">Free Consultation</a>
         </div>
       </section>
       <!-- work section -->
@@ -119,15 +127,15 @@
           </p>
         </div>
         <div class="cta__button">
-          <a href="#" class="btn btn--red">Free Consultation</a>
+          <a href="#" class="btn btn--red btn-text">Free Consultation</a>
         </div>
       </section>
     </main>
-    <footer class="footer container d-flex">
+    <footer class="footer container d-flex--space-between">
       <a href="/">
         <img src="./assets/logo.svg" alt="Amy design solutions" class="logo" />
       </a>
-      <a href="#" class="btn btn--black paragraph-2">Free consultation</a>
+      <a href="#" class="btn btn--black btn-text">Free consultation</a>
     </footer>
   </body>
 </html>
