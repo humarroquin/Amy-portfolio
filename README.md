@@ -23,7 +23,7 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### What I learned
 
-I learned how to find the index of the middle image and place it in the center of my slider container when the page loads.
+I learned how to find the index of the middle image in the slider container and place it in the center of the container when the page loads.
 
 ```js
 // Center the middle image
