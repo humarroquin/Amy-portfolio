@@ -47,8 +47,8 @@ window.addEventListener('load', centerMiddleImage);
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will research more about creating sliders or carousels with JS and the different options available for building them.
 
 ### Useful resources
 
-- [How To Create Image Gallery In JavaScript | Horizontal Scrolling Using JavaScript](https://www.youtube.com/watch?v=gzXyRa7jwk4) - This video helped me gain a better understanding of how to create a simple slider. I didn't use all the ideas from the video but focused mainly on moving the slider container to the right and left when the buttons were clicked.
+- [How To Create Image Gallery In JavaScript | Horizontal Scrolling Using JavaScript](https://www.youtube.com/watch?v=gzXyRa7jwk4) - This video helped me gain a better understanding of how to create a simple slider. I did not use all the ideas from the video but focused mainly on moving the slider container to the right and left when the buttons were clicked.
