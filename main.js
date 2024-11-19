@@ -1,9 +1,9 @@
 const sliderContainer = document.querySelector('.work__slider');
 const btnPrev = document.querySelector('.btn-prev');
-const btnNxt = document.querySelector('.btn-next');
+const btnNext = document.querySelector('.btn-next');
 const images = document.querySelectorAll('.slider-img');
 
-btnNxt.addEventListener('click', () => {
+btnNext.addEventListener('click', () => {
   sliderContainer.style.scrollBehavior = 'smooth';
   sliderContainer.scrollLeft += 570;
 });
